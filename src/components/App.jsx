@@ -17,8 +17,8 @@ export default function App() {
 
   useEffect(() => {
     const data = localStorage.getItem('contacts');
-    const parsedcContacts = JSON.parse(data);
-    setContacts(parsedcContacts);
+    const parsedContacts = JSON.parse(data);
+    setContacts(parsedContacts);
   }, []);
 
   useEffect(() => {
